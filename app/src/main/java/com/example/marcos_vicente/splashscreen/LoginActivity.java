@@ -98,7 +98,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         if (!mayRequestContacts()) {
             return;
         }
-
+//TODO proba de git
         getLoaderManager().initLoader(0, null, this);
     }
 
